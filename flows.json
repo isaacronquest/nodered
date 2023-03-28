@@ -1,0 +1,44 @@
+[
+    {
+        "id": "30bdd4de87472bca",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b8f63e229c5b650c",
+        "type": "mongodb4-client",
+        "name": "MongoDB on Docker1",
+        "protocol": "mongodb",
+        "hostname": "192.168.0.11",
+        "port": "",
+        "dbName": "test",
+        "authSource": "",
+        "authMechanism": "SCRAM-SHA-256",
+        "tls": false,
+        "tlsCAFile": "",
+        "tlsInsecure": false,
+        "uri": "",
+        "advanced": "",
+        "uriTabActive": "tab-uri-simple"
+    },
+    {
+        "id": "5baead83b4c898de",
+        "type": "mongodb4",
+        "z": "30bdd4de87472bca",
+        "clientNode": "b8f63e229c5b650c",
+        "mode": "collection",
+        "collection": "",
+        "operation": "",
+        "output": "toArray",
+        "handleDocId": false,
+        "name": "",
+        "x": 510,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    }
+]
