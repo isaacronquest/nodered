@@ -35,8 +35,8 @@
         "output": "toArray",
         "handleDocId": false,
         "name": "",
-        "x": 510,
-        "y": 400,
+        "x": 490,
+        "y": 280,
         "wires": [
             []
         ]
