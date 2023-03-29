@@ -8,6 +8,14 @@
         "env": []
     },
     {
+        "id": "3933dfac4d77d384",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "b8f63e229c5b650c",
         "type": "mongodb4-client",
         "name": "MongoDB on Docker1",
@@ -37,6 +45,63 @@
         "name": "",
         "x": 490,
         "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0dfa291b02244f51",
+        "type": "complete",
+        "z": "30bdd4de87472bca",
+        "name": "",
+        "scope": [],
+        "uncaught": false,
+        "x": 470,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "68bb0f249684a5cc",
+        "type": "inject",
+        "z": "30bdd4de87472bca",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 520,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a7828f6480951176",
+        "type": "mongodb4",
+        "z": "3933dfac4d77d384",
+        "clientNode": "b8f63e229c5b650c",
+        "mode": "collection",
+        "collection": "",
+        "operation": "",
+        "output": "toArray",
+        "handleDocId": false,
+        "name": "",
+        "x": 410,
+        "y": 240,
         "wires": [
             []
         ]
